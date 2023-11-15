@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  background: #313131;
+}
+
+.display-none {
+  display: hidden;
+}
+
+.note-content {
+  max-width: 1500px;
+  margin-left: 28px;
+  font-size: 20px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+#principal-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.note-title {
+  font-size: 25px;
+}
+
+.note-real-content {
+  margin-left: 28px;
+}
+
+#footer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  margin-top: 12%;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  font-size: 45px;
+}
+.top-hr {
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: dashed;
+  width: 22%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.bottom-hr {
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: dashed;
+  width: 21%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+summary {
+  font-size: 35px;
+}
+
+#clear-notes-button {
+  border: none;
+  background-color: #313131;
+  margin-top: none;
+}
+
+#show-notes-div {
+  align-self: flex-start;
+  font-size: 25px;
+}
+
+textarea {
+  border-width: 2px;
+  border-style: solid;
+  color: #000000;
+  font-size: 22px;
+}
+
+#submit-button {
+  margin-top: 1%;
+  font-size: 26px;
+  width: 307px;
+  background-color: #313131;
+  color: #ffffff;
+  border: none;
+}
