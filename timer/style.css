@@ -1,0 +1,36 @@
+* {
+  font-family: DejaVu Sans Mono, monospace;
+  user-select: none;
+  text-decoration: none;
+}
+body {
+  background-color: rgba(29, 140, 146, 0.534);
+}
+div{
+	text-align: center;
+}
+#watch {
+  font-size: 6rem;
+}
+.watchButtons {
+  width: 125px;
+  height: 32px;
+  border-style: none;
+  border-radius: 15px;
+}
+button:hover {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#start-btn:hover {
+  background-color: green;
+  color: white;
+}
+#pause-btn:hover {
+  background-color: rgba(255, 251, 0, 0.781);
+  color: white;
+}
+#stop-btn:hover {
+  background-color: red;
+  color: white;
+}

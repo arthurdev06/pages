@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+* {
+  font-family: "Fira Code", sans-serif;
+  color: #ffff;
+}
+body {
+  margin: 0;
+  background-color: #313131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 22pt;
+
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+hr {
+  border: 2px dashed white;
+
+}
+
+a {
+  margin-top: 15px;
+}
+
+header {
+  margin-top: 2px;
+}
+
+footer {
+  margin-top: 25px;
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
+.svg {
+  margin-left: 65px;
+}
+
