@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Tauri
+- Font Author: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name 'Tauri'.
+- Font Source: http://fonts.gstatic.com/s/tauri/v18/TwMA-IISS0AM3IpVWHU_TBqO.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
