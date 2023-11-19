@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gerador de Box Shadow</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
-      rel="stylesheet"
-    />
+
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -31,7 +26,12 @@
             />
           </div>
           <div class="reference-input">
-            <input type="text" id="horizontal-value" name="horizontal-value" />
+            <input
+              type="text"
+              id="horizontal-value"
+              name="horizontal-value"
+              title="deslocamento-horizontal"
+            />
             <p>px</p>
           </div>
         </div>
@@ -48,7 +48,12 @@
             />
           </div>
           <div class="reference-input">
-            <input type="text" id="vertical-value" name="vertical-value" />
+            <input
+              type="text"
+              id="vertical-value"
+              name="vertical-value"
+              title="deslocamento-vertical"
+            />
             <p>px</p>
           </div>
         </div>
@@ -65,7 +70,7 @@
             />
           </div>
           <div class="reference-input">
-            <input type="text" id="blur-value" name="blur-value" />
+            <input type="text" id="blur-value" name="blur-value" title="blur" />
             <p>px</p>
           </div>
         </div>
@@ -82,7 +87,12 @@
             />
           </div>
           <div class="reference-input">
-            <input type="text" id="spread-value" name="spread-value" />
+            <input
+              type="text"
+              id="spread-value"
+              name="spread-value"
+              title="spread"
+            />
             <p>px</p>
           </div>
         </div>
@@ -92,7 +102,12 @@
             <input type="color" id="color" name="color" value="#000000" />
           </div>
           <div class="reference-input">
-            <input type="text" id="color-value" name="color-value" />
+            <input
+              type="text"
+              id="color-value"
+              name="color-value"
+              title="color"
+            />
           </div>
         </div>
         <div class="form-control">
@@ -109,13 +124,18 @@
             />
           </div>
           <div class="reference-input">
-            <input type="text" id="opacity-value" name="opacity-value" />
+            <input
+              type="text"
+              id="opacity-value"
+              name="opacity-value"
+              title="opacity"
+            />
           </div>
         </div>
         <div class="form-control">
           <div class="range-input">
             <label for="opacity">Sombra interna? (Inset)</label>
-            <input type="checkbox" id="inset" name="inset" />
+            <input type="checkbox" id="inset" name="inset" title="inset" />
           </div>
         </div>
       </div>
@@ -135,4 +155,3 @@
     </div>
   </body>
 </html>
-

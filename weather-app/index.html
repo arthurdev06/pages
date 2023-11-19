@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TOOK-NOTES</title>
-    <link rel="stylesheet" href="./input.css" />
-    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -24,63 +24,58 @@
       href="./favicon_io/favicon-16x16.png"
     />
     <link rel="manifest" href="./favicon_io/site.webmanifest" />
+    <title>Wheather App</title>
   </head>
   <body>
-    <header class="principal-div">
-      <h1>
-        TOOK-NOTES
-        <button aria-label="clean" id="clear-notes-button" title="Limpar notas">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="36"
-            height="36"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="white"
-            stroke-width="2.3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-trash"
-          >
-            <polyline points="3 6 5 6 21 6"></polyline>
-            <path
-              d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
-            ></path>
-          </svg>
-        </button>
-      </h1>
-    </header>
-    <div id="principal-div">
-      <textarea
-        name="new-note"
-        id="new-note"
-        placeholder="Nova nota"
-        cols="23"
-        rows="1"
-      ></textarea>
-
-      <button type="submit" id="submit-button" title="Enviar nova nota">
-        ENVIAR
+    <div class="big-box">
+      <input
+        placeholder="Digite a cidade"
+        type="text"
+        name="Wheather-Search"
+        id="search-input"
+      />
+      <button
+        title="Buscar"
+        id="search-button"
+        type="submit"
+        onclick="getInputValue()"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="35"
+          height="35"
+          viewBox="0 0 8 8"
+        >
+          <path
+            fill="currentColor"
+            d="M3.5 0C1.57 0 0 1.57 0 3.5S1.57 7 3.5 7c.59 0 1.17-.14 1.66-.41a1 1 0 0 0 .13.13l1 1a1.02 1.02 0 1 0 1.44-1.44l-1-1a1 1 0 0 0-.16-.13c.27-.49.44-1.06.44-1.66c0-1.93-1.57-3.5-3.5-3.5zm0 1C4.89 1 6 2.11 6 3.5c0 .66-.24 1.27-.66 1.72l-.03.03a1 1 0 0 0-.13.13c-.44.4-1.04.63-1.69.63c-1.39 0-2.5-1.11-2.5-2.5s1.11-2.5 2.5-2.5z"
+          />
+        </svg>
       </button>
+      <div class="medium-box">
+        <h2 class="city">Previsão do tempo</h2>
+        <p class="temp">Temperatura</p>
+        <div class="small-box">
+          <img
+            src="https://openweathermap.org/img/wn/04n.png"
+            class="weather-icon"
+            alt="icon"
+          />
+          <p class="text-weather">Descrição</p>
+        </div>
 
-      <hr class="top-hr" />
+        <p class="humidity">Umidade </p>
+      </div>
     </div>
-    <div id="show-notes-div">
-      <details>
-        <summary>Mostrar notas</summary>
 
-        <div class="notes-container"></div>
-      </details>
-    </div>
+    <footer>
+      <hr />
+      <div class="text">Made by Arthur &copy;</div>
 
-    <footer <div id="footer-div">
-      <hr class="bottom-hr" />
-      Made by Arthur &copy;
-      <div class="svg-div">
+      <div class="svg">
         <svg
           xmlns="https://github.com/arthurdev06"
           width="50"
-          
           viewBox="0 0 128 128"
         >
           <g fill="currentColor">
@@ -97,12 +92,7 @@
           </g>
         </svg>
 
-        <svg
-          width="50"
-          fill="currentColor"
-          
-          viewBox="0 0 128 128"
-        >
+        <svg width="50" fill="currentColor" viewBox="0 0 128 128">
           <a
             href="https://www.linkedin.com/in/arthur-rocha-64795a256/"
             title="LinkedIn"
@@ -115,6 +105,5 @@
       </div>
     </footer>
   </body>
-
   
 </html>
