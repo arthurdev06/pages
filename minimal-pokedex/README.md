@@ -1,4 +1,4 @@
-# TOOK-NOTES
+# Minimal Pokedex
 
 
 
