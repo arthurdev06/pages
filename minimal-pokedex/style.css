@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+* {
+  font-family: "Fira Code", sans-serif;
+  color: #ffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #313131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25pt;
+}
+
+hr {
+  border: 2px dashed white;
+}
+
+#title {
+  margin-bottom: 10px;
+}
+
+a {
+  margin-top: 15px;
+}
+
+#search-button {
+  background: #313131;
+  padding: 8px;
+  border-radius: 30%;
+  border: 2px solid #ffffff;
+  outline: none;
+  cursor: pointer;
+  float: right;
+}
+input:-ms-input-placeholder {
+  font-size: 18px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+input:-moz-placeholder {
+  font-size: 18px;
+}
+
+input::-moz-placeholder {
+  font-size: 18px;
+}
+input {
+  background-color: #313131;
+  border: 2px solid #ffffff;
+  outline: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 30px;
+  width: 100px;
+  height: 77px;
+  width: calc(100% - 100px);
+}
+.big-box {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.medium-box {
+  display: none;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: 2px solid #ffffffa1;
+  text-align: center;
+  background: rgb(48, 48, 48, 1);
+  background: radial-gradient(
+    circle,
+    rgb(255, 255, 255, 0.1) 0%,
+    rgba(88, 88, 88, 0.3) 100%
+  );
+}
+
+.card {
+  width: 95%;
+  align-self: center;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #313131;
+}
+
+.image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  margin: -60px 0 0 -60px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.pokemon-name {
+  text-transform: capitalize;
+}
+
+.small-box {
+  background-color: #313131;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: start;
+  padding: 15px;
+  margin: 10px;
+}
+
+.caracteristics-title {
+  text-align: center;
+}
+
+.pokemon-type {
+  text-transform: capitalize;
+}
+
+progress {
+  border: none;
+  background: #313131;
+  border: 2px solid #ffffffab;
+}
+
+progress {
+  color: #ffffff;
+}
+
+progress::-moz-progress-bar {
+  background: #ffffff;
+}
+
+progress::-webkit-progress-value {
+  background: #313131;
+}
+
+progress::-webkit-progress-bar {
+  background: #313131;
+}
+.text {
+  margin-top: 10px;
+}
+footer {
+  margin-top: 25px;
+  text-align: center;
+}
+@media (max-width: 650px) {
+  input:-ms-input-placeholder {
+    font-size: 10.95px;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size: 10.95px;
+  }
+
+  input:-moz-placeholder {
+    font-size: 10.95px;
+  }
+
+  input::-moz-placeholder {
+    font-size: 10.95px;
+  }
+}

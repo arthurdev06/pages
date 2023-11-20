@@ -29,6 +29,7 @@ a {
 
 header {
   margin-top: 2px;
+  text-align: center;
 }
 
 footer {
@@ -41,4 +42,11 @@ footer {
 
 .svg {
   margin-left: 75px;
+}
+
+@media (max-width: 650px) {
+  header {
+    justify-content: center;
+    text-align: center;
+  }
 }
