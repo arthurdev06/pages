@@ -1,4 +1,6 @@
 function showPokemon(data) {
+  const type = data.types.map((type) => type.type.name);
+
   document.querySelector(".medium-box").style.display = "flex";
   document.querySelector(".pokemon-name").innerHTML = `${data.name}`;
   document.querySelector(
@@ -7,7 +9,7 @@ function showPokemon(data) {
   document.querySelector(
     ".small-box"
   ).innerHTML = `<h3 class="caracteristics-title">Características</h3>
-          <p class="pokemon-type">Tipo: ${data.types[0].type.name}</p>
+          <p class="pokemon-type">Tipo: ${type}</p>
           <p class="pokemon-height">Altura: ${data.height}</p>
           <p class="pokemon-weight">Peso: ${data.weight}</p>
           <p>Vida: </p>
@@ -24,7 +26,7 @@ function showPokemon(data) {
           <progress value="${data.stats[5].base_stat}" max="200" class="pokemon-speed">${data.stats[5].base_stat}%</progress>`;
 }
 
-async function fetchApi(inputValue) {
+const fetchApi = async (inputValue) => {
   fetch(`https://pokeapi.co/api/v2/pokemon/${inputValue}?limit=251`)
     .then((response) => response.json())
     .then((data) => {
@@ -34,7 +36,7 @@ async function fetchApi(inputValue) {
     .catch((err) => {
       window.alert("Pokemon não encontrado", err);
     });
-}
+};
 
 function getInputValue() {
   const inputValue = document.querySelector("#search-pokemon").value;
