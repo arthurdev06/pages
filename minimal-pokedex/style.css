@@ -27,6 +27,10 @@ a {
   margin-top: 15px;
 }
 
+.social-icon {
+  fill: white;
+}
+
 #search-button {
   background: #313131;
   padding: 8px;

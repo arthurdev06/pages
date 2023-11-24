@@ -44,6 +44,10 @@ footer {
   margin-left: 75px;
 }
 
+.social-icon {
+  fill: white;
+}
+
 @media (max-width: 650px) {
   header {
     justify-content: center;

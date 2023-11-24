@@ -41,6 +41,10 @@ footer {
   margin-left: 75px;
 }
 
+.social-icon {
+  fill: white;
+}
+
 .big-box {
   background: rgb(48, 48, 48);
   background: radial-gradient(
@@ -113,7 +117,7 @@ input {
 }
 
 @media (max-width: 650px) {
-  .big-box { 
+  .big-box {
     margin: 20px;
     flex-wrap: nowrap;
   }
@@ -127,7 +131,7 @@ input {
   }
 }
 @media (max-width: 400px) {
-  .big-box { 
+  .big-box {
     margin: 20px;
     flex-wrap: nowrap;
   }
@@ -141,4 +145,3 @@ input {
     margin-top: 15px;
   }
 }
-

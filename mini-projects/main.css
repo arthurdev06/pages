@@ -36,6 +36,10 @@ footer {
   margin-top: 25px;
 }
 
+.social-icon {
+  fill: white;
+}
+
 .text {
   margin-bottom: 15px;
 }

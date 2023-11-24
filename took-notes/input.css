@@ -81,6 +81,10 @@ a {
   height: 150px;
 }
 
+.social-icon {
+  fill: white;
+}
+
 h1 {
   font-size: 45px;
 }
