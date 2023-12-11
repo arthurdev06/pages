@@ -3,8 +3,7 @@
 This app help us front end dev to find the perfext shadow to our boxes
 Credits:https://www.youtube.com/@MatheusBattisti
 
-<video controls>
-  <source src="./preview.mp4" type="video/mp4">
-</video>
+https://github.com/arthurdev06/arthurdev06.github.io/assets/116519847/6b91442f-18c5-4fff-8d14-6c74f68866cb
 
-###Checkout in: https://arthurdev06.github.io/boxshadow/index.html
+
+<h2><h2/>Checkout in: https://arthurdev06.github.io/boxshadow/index.html
