@@ -1,8 +1,10 @@
 # TOOK-NOTES
 
-<video controls>
-  <source src="./preview.mp4" type="video/mp4">
-</video>
+
+
+https://github.com/arthurdev06/arthurdev06.github.io/assets/116519847/5f11ad15-71f9-4e02-a70f-0366b6935d9d
+
+
 
 <details>
 <summary>EN:</summary>
