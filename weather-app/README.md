@@ -1,8 +1,10 @@
 # Weather App
 
-<video controls>
-  <source src="./preview.mp4" type="video/mp4">
-</video>
+
+
+https://github.com/arthurdev06/arthurdev06.github.io/assets/116519847/ab5fc4c6-4dca-4d0d-8973-8a79c27e926f
+
+
 
 <details>
 <summary>EN:</summary>
