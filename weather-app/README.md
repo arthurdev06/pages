@@ -1,9 +1,8 @@
-
 # Weather App
 
-
-
-![alt text](./preview.png)
+<video controls>
+  <source src="./preview.mp4" type="video/mp4">
+</video>
 
 <details>
 <summary>EN:</summary>
@@ -11,6 +10,7 @@
 ### About the project
 
 - A simple app that uses openweatherapi to extract data and show temperature, situation, like raining and humidity .
+
 ### How to execute the project:
 
 1. Have an IDE that supports HTML, CSS, JavaScript and that can run the code on screen, like vscode with live server;

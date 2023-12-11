@@ -1,6 +1,9 @@
 # Voice-Calculator
 
-![alt text](./preview.jpeg)
+<video controls>
+  <source src="./preview.mp4" type="video/mp4">
+</video>
+
 
 <details>
 <summary>EN:</summary>
