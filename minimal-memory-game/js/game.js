@@ -97,7 +97,6 @@ const createCards = (character) => {
 
     front.style.backgroundImage = `url("/minimal-memory-game/images/${character}.jpg")`;
 
-
     console.log(`Image path for ${character}: /minimal-memory-game/images/${character}.jpg`);
     card.appendChild(front);
     card.appendChild(back);
