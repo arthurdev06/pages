@@ -10,7 +10,7 @@ const getUserInput = () => {
       .replace(/×/g, "*")
       .replace(/÷/g, "/");
     console.log(Math.round(input));
-    result.innerText = `Calculado "${input}"`;
+    result.innerText = `Calculando: "${input}"`;
     setTimeout(function () {
       evaluate(input);
     }, 2000);
