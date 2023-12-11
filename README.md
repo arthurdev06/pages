@@ -1,1 +1,3 @@
-## Este repositório usarei para dar deploy em aplicações no Github Pages
+## This rep is to deploy html, css and js apps on Github Pages
+
+###Checkout in: https://arthurdev06.github.io
