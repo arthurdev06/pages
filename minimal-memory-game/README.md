@@ -1,8 +1,10 @@
-# TOOK-NOTES
+# Minimal Memory Game
 
-<video controls>
-  <source src="./preview.mp4" type="video/mp4">
-</video>
+
+
+https://github.com/arthurdev06/arthurdev06.github.io/assets/116519847/ad71ea8b-9e94-42e1-bef7-59726b28ab8a
+
+
 
 <details>
 <summary>EN:</summary>
