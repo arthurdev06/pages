@@ -6,8 +6,6 @@ Here's the link of his youtube channel:</strong>
 
 https://www.youtube.com/c/FernandoLeonid
 
-<video controls>
-  <source src="./preview.mp4" type="video/mp4">
-</video>
 
-###Checkout in: https://arthurdev06.github.io/mini-projects/index.html
+
+<h2>Checkout in: https://arthurdev06.github.io/mini-projects/index.html<h2/>
