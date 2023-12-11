@@ -1,8 +1,10 @@
 # Minimal Pokedex
 
-<video controls>
-  <source src="./preview.mp4" type="video/mp4">
-</video>
+
+https://github.com/arthurdev06/arthurdev06.github.io/assets/116519847/f33bc8fa-abd2-4540-8dda-dbd68298f3f4
+
+
+
 
 <details>
 <summary>EN:</summary>
