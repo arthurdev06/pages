@@ -1,6 +1,8 @@
 const grid = document.querySelector(".grid");
-const turnCardSound = new Audio("/sounds/turn_card.wav");
-const approvationSound = new Audio("/sounds/aprovation.mp3");
+const turnCardSound = new Audio("/minimal-memory-game/sounds/turn_card.wav");
+const approvationSound = new Audio(
+    "/minimal-memory-game/sounds/aprovation.mp3"
+);
 const playAgainButton = document.querySelector(".play-again-button");
 const winWindow = document.querySelector(".win-window");
 const spanPlayer = document.querySelector(".player");
@@ -93,7 +95,7 @@ const createCards = (character) => {
     const front = createElement("div", "face front");
     const back = createElement("div", "face back");
 
-    front.style.backgroundImage = `url("/images/${character}.jpg")`;
+    front.style.backgroundImage = `url("/minimal-memory-game/images/${character}.jpg")`;
 
     card.appendChild(front);
     card.appendChild(back);
