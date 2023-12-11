@@ -1,8 +1,6 @@
 # Voice-Calculator
 
-<video controls>
-  <source src="./preview.mp4" type="video/mp4">
-</video>
+https://github.com/arthurdev06/arthurdev06.github.io/assets/116519847/cef7985e-08b1-44d9-bc2b-6ccf78082998
 
 
 <details>
