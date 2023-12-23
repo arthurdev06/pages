@@ -6,6 +6,12 @@ const winWindow = document.querySelector(".win-window");
 const spanPlayer = document.querySelector(".player");
 const timer = document.querySelector(".timer");
 
+const jsConfetti = new JSConfetti();
+
+function confettiFY() {
+    jsConfetti.addConfetti();
+}
+
 const characters = [
     "Buster",
     "Gus",
@@ -32,6 +38,7 @@ const checkEndGame = () => {
     console.log("ok");
 
     if (disabledCards.length == 16) {
+        confettiFY();
         approvationSound.play();
         clearInterval(this.loop);
         winWindow.style.display = "flex";
@@ -93,7 +100,11 @@ const createCards = (character) => {
     const front = createElement("div", "face front");
     const back = createElement("div", "face back");
 
-    front.style.backgroundImage = `url("../images/${character}.jpg")`;
+    front.style.backgroundImage = `url("/minimal-memory-game/images/${character}.jpg")`;
+
+    console.log(
+        `Image path for ${character}: /minimal-memory-game/images/${character}.jpg`
+    );
 
     card.appendChild(front);
     card.appendChild(back);
