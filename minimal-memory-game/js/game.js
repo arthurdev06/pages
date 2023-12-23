@@ -35,8 +35,6 @@ let secondCard = "";
 const checkEndGame = () => {
     const disabledCards = document.querySelectorAll(".disabled-card");
 
-    console.log("ok");
-
     if (disabledCards.length == 16) {
         confettiFY();
         approvationSound.play();
