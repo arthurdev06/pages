@@ -8,9 +8,9 @@ const timer = document.querySelector(".timer");
 
 const jsConfetti = new JSConfetti();
 
-function confettiFY() {
+const confettiFY = () => {
     jsConfetti.addConfetti();
-}
+};
 
 const characters = [
     "Buster",
