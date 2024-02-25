@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+:root {
+  --emerald: rgba(92, 219, 149, 1);
+  --light-blue: rgba(173, 216, 230, 1);
+  --timberwolf: rgba(211, 211, 211, 1);
+  --isabelline: rgba(242, 237, 235, 1);
+  --raisin-black: rgba(34, 29, 35, 1);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: var(--isabelline);
+  color: var(--raisin-black);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font-size: 10pt;
+  font-family: "Lato", sans-serif;
+}
+header,
+footer {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+button {
+  cursor: pointer;
+}
+
+hr {
+  width: 100%;
+  border: 2px dashed var(--raisin-black);
+}
+
+a {
+  margin-top: 15px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.svg {
+  margin-top: 5px;
+  align-items: center;
+}
+
+.visible {
+  display: flex;
+}
+
+.set-item-center {
+  text-align: center;
+}
+
+.set-item-right {
+  text-align: right;
+}
+
+.set-item-left {
+  text-align: left;
+}
