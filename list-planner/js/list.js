@@ -227,7 +227,6 @@ let rowsCreated = false;
 const showEndPurchase = () => {
   isFormOpen = true;
 
-  document.body.style.overflow = "hidden";
   blurBackground.style.display = "flex";
   endPurchaseMenu.style.display = "flex";
   blurBackground.style.opacity = "1";
@@ -254,7 +253,6 @@ const showForm = () => {
   isFormOpen = true;
   formContainer.style.display = "flex";
   blurBackground.style.display = "flex";
-  document.body.style.overflow = "hidden";
 };
 
 const closeForm = () => {
@@ -262,7 +260,6 @@ const closeForm = () => {
   if (window.confirm("Tem certeza da sua ação?")) {
     formContainer.style.display = "none";
     blurBackground.style.display = "none";
-    document.body.style.overflow = "auto";
     clearFields();
   }
 };
@@ -271,7 +268,6 @@ const closeEndPurchase = () => {
   isFormOpen = false;
   endPurchaseMenu.style.display = "none";
   blurBackground.style.display = "none";
-  document.body.style.overflow = "auto";
   blurBackground.style.opacity = "0.9";
 };
 
