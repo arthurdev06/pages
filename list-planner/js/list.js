@@ -200,13 +200,13 @@ const showData = () => {
   pucharseDate.textContent = `${localStorage.getItem("date")}`;
   pucharseBudget.textContent = `${localStorage.getItem(
     "budget"
-  )} ${localStorage.getItem("currency")}`;
-  pucharseActual.textContent = `${somaPreços.toFixed(2)} ${localStorage.getItem(
+  )}${localStorage.getItem("currency")}`;
+  pucharseActual.textContent = `${somaPreços.toFixed(1)}${localStorage.getItem(
     "currency"
   )}`;
   pucharseTotal.textContent = `${Math.abs(
     parseFloat(localStorage.getItem("budget")) - somaPreços
-  )} ${localStorage.getItem("currency")}`;
+  )}${localStorage.getItem("currency")}`;
 };
 //reciept page
 
