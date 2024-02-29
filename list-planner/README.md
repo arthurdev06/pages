@@ -3,6 +3,10 @@
 
 
 
+https://github.com/arthurdev06/arthurdev06.github.io/assets/116519847/c680a4e5-7491-48cc-b500-e2a17347e69d
+
+
+
 
 <details>
 <summary>EN:</summary>
@@ -16,7 +20,7 @@
 1. Have an IDE that supports HTML, CSS, JavaScript and that can run the code on screen, like vscode with live server;
 2. Clone this repository using `git clone https://github.com/arthurdev06/arthurdev06.github.io/tree/main/took-notess` command;
 
-### Checkout in: https://arthurdev06.github.io/minimal-memory-game/index.html
+### Checkout in: https://arthurdev06.github.io/list-planner/index.html
 
 </details>
 
@@ -32,6 +36,6 @@
 1. Tenha uma IDE que suporte HTML, CSS, JavaScript e que consiga rodar o código atualizando na tela, no vscode temos a extensão do live server;
 2. Dê um `git clone https://github.com/arthurdev06/arthurdev06.github.io/tree/main/took-notes`;
 
-### Veja em: https://arthurdev06.github.io/minimal-memory-game/index.html
+### Veja em: https://arthurdev06.github.io/list-planner/index.html
 
 </details>
