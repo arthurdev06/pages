@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const submitNewNote = document.querySelector("#submit-button");
   const noteContent = document.querySelector("#new-note");
   const clearNotesButton = document.querySelector("#clear-notes-button");
-
+  //Coisa
   function addNote() {
     const noteText = noteContent.value;
 
