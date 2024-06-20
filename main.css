@@ -1,18 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
-  font-family: "Fira Code", sans-serif;
-  color: #ffff;
+  font-family: "Urbanist", sans-serif;
+  color: #0c0c0c;
 }
 body {
-  width: 100vw;
-  height: 100vh;
   margin: 0;
-  background-color: #313131;
+  background-color: #f8f8ff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 22pt;
+  user-select: none;
 }
 
 body * {
@@ -20,37 +19,91 @@ body * {
 }
 
 hr {
-  border: 2px dashed white;
+  max-width: 780px;
+  width: 100%;
+  border: 1px solid #0c0c0c38;
 }
 
 a {
-  margin-top: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 22pt;
 }
 
 header {
-  margin-top: 2px;
   text-align: center;
 }
-
-footer {
-  margin-top: 25px;
+header p {
+  font-size: 32pt;
+  font-weight: 900;
+  text-wrap: wrap;
 }
-
-.text {
-  margin-bottom: 15px;
-}
-
-.svg {
-  margin-left: 75px;
-}
-
 .social-icon {
-  fill: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.social-icon i {
+  font-size: 40pt;
 }
 
-@media (max-width: 650px) {
-  header {
+.big-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.medium-box {
+  border: 1px solid #0c0c0c38;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.medium-box video {
+  max-width: 500px;
+  width: 100%;
+}
+.item {
+  flex-grow: 1;
+  flex-basis: 200;
+}
+
+.small-box {
+  width: 400px;
+}
+
+.small-box p {
+  font-size: 16pt;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  header p {
+    font-size: 19pt;
+  }
+  hr {
+    max-width: 480px;
+  }
+  a {
+    font-size: 16pt;
+  }
+  .medium-box p {
+    font-size: 12pt;
+  }
+  .big-box {
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+  .medium-box {
     justify-content: center;
-    text-align: center;
+  }
+  .medium-box video {
+    max-width: 400px;
   }
 }
