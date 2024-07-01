@@ -24,13 +24,6 @@ hr {
   border: 1px solid #0c0c0c38;
 }
 
-a {
-  text-decoration: none;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 22pt;
-}
-
 header {
   text-align: center;
 }
@@ -38,6 +31,9 @@ header p {
   font-size: 32pt;
   font-weight: 900;
   text-wrap: wrap;
+}
+#credit {
+  font-size: 14pt;
 }
 .social-icon {
   display: flex;
@@ -70,6 +66,10 @@ header p {
   width: 100%;
 }
 .item {
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 22pt;
   flex-grow: 1;
   flex-basis: 200;
 }
@@ -90,7 +90,7 @@ header p {
   hr {
     max-width: 480px;
   }
-  a {
+  .item {
     font-size: 16pt;
   }
   .medium-box p {
