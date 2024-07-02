@@ -5,7 +5,7 @@ todo:
 -improve every project
 boxshadow
 list-planner
-miniprojects
+miniprojects :done
 minimal-memory-game
 minimal-pokedex
 took-notes
