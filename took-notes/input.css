@@ -51,7 +51,9 @@ header {
   font-size: 35px;
   gap: 20px;
 }
-
+#principal-div textarea {
+  padding:10px;
+}
 .note-title {
   font-size: 25px;
 }
@@ -93,6 +95,7 @@ summary {
 }
 
 #show-notes-div {
+  padding-left: 50px;
   align-self: flex-start;
   font-size: 25px;
 }
