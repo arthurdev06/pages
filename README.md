@@ -8,7 +8,7 @@ Todo:
 3. miniprojects :done
 4. minimal-memory-game
 5. minimal-pokedex
-6. took-notes
+6. took-notes : done
 7. voice-calculator
 8. weather-app
 - record new videos
