@@ -81,9 +81,13 @@ header p {
 .small-box p {
   font-size: 16pt;
 }
+.hand-point {
+  margin-left: 15px;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (max-width: 768px) {
+
   header p {
     font-size: 19pt;
   }
